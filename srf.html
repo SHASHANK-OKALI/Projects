@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="srf.css">
+</head>
+<body>
+    
+    <div id="name">
+        <h1>Student Registration Form</h1>
+        <h2>Personal Details</h2>
+        
+        <div>
+        <label  for="First Name">First name :</label>
+        <input  type="text" name="firstname" placeholder="enter first name">
+        </div>
+        <div>
+        <label  for="Last name">Last name :</label>
+        <input  type="text" name="last name" placeholder="enter last name">
+        </div>
+        
+        
+    
+        <div>
+            <label for="DOB">Date of Birth :</label>
+            <input type="date" name="Date of Birth">
+        </div>
+        
+        <div class="gender">
+            <label for="gender">Gender :</label>
+            <input type="radio" name="gender" value="male">Male
+            <input type="radio" name="gender" value="female">Female
+            <input type="radio" name="gender" value="other">Other
+        </div>
+
+        <div>
+            <label id="email" for="Email">Email :</label>  
+            <input type="email"  name="email" placeholder="enter your email" >
+        </div>
+
+        <div>
+            <label for="Address">Address :</label>
+            <textarea name="Address" rows="1" ></textarea>
+        </div>
+
+        <div>
+            <label for="Mobile Number">Mobile Number :</label>
+            <input type="tel" name="mobile number">
+        </div>
+        
+        <h2>Academic Details</h2>
+
+        <div>
+            <label for="Course">Course :</label>
+            <select name="Course">
+                <option value="">--Select Course</option>
+                <option value="BCA">BCA</option>
+                <option value="BCA">BBA</option>
+                <option value="BCA">MCA</option>
+                <option value="BCA">MBA</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="semester">Semester :</label>
+            <select name="semester">
+                <option value="">--Select semester</option>
+                <option value="1">1st</option>
+                <option value="2">2nd</option>
+                <option value="3">3rd</option>
+                <option value="4">4th</option>
+            </select>
+        </div>
+
+        <div>
+            <label >Upload photo :</label>
+            <input type="file" name="photo" >
+        </div>
+
+        <button type="submit">Submit</button>
+        <button id="res" type="reset">reset</button>
+
+
+ 
+</div>
+
+    
+</body>
+</html>

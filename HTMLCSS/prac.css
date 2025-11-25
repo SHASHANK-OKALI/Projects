@@ -1,7 +1,38 @@
-#box{
+/* #box{
     background-color: blue;
 }
 
 button{
     background-color: green;
+} */
+
+
+/* div{
+    height: 150px;
+    width: 150px;
+    background-color: green;
+    border-radius: 20%;
+} */
+
+.navbar{
+  height: 60px;
+  width: 900px;
+  border-style: solid;
+  border-radius: 2%;
+  border-width: 10%;
+  border-color: rgb(172, 206, 33);
+  background-color: black;
+  color: aliceblue;
+}
+
+nav ul{
+    display: flex;
+    /* align-items: center; */
+    flex-direction: row;
+}
+
+li{
+    list-style-type:none;
+    /* align-content: space-evenly; */
+    margin: 10px 0px 3px 50px;
 }

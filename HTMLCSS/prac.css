@@ -14,7 +14,7 @@ button{
     border-radius: 20%;
 } */
 
-.navbar{
+/*.navbar{
   height: 60px;
   width: 900px;
   border-style: solid;
@@ -27,12 +27,28 @@ button{
 
 nav ul{
     display: flex;
-    /* align-items: center; */
+   
     flex-direction: row;
 }
 
 li{
     list-style-type:none;
-    /* align-content: space-evenly; */
+    
     margin: 10px 0px 3px 50px;
+}*/
+
+body{
+    text-align: center;
+    background:#cd9872;
+    font-family: georgia;
+    padding: 40px;
+}
+
+.box{
+    background : white;
+    padding : 30px;
+    width : 60%;
+    margin : auto;
+    border-radius: 15px;
+    box-shadow: 0 0 10px gray;
 }

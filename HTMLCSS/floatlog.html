@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Glass Login</title>
+<style>
+    body {
+        margin: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: url('https://images.unsplash.com/photo-1517816428104-797678c7cf0a')
+                   no-repeat center/cover;
+        font-family: Poppins;
+    }
+
+    .glass {
+        width: 330px;
+        padding: 35px;
+        border-radius: 20px;
+        background: rgba(255,255,255,0.15);
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255,255,255,0.3);
+        box-shadow: 0 0 25px rgba(0,0,0,0.4);
+    }
+
+    .glass input {
+        width: 100%;
+        margin: 10px 0;
+        padding: 12px;
+        border-radius: 10px;
+        border: none;
+        background: rgba(255,255,255,0.35);
+        color: black;
+        font-size: 14px;
+    }
+
+    button {
+        width: 100%;
+        padding: 12px;
+        border: none;
+        border-radius: 10px;
+        background: rgba(255,255,255,0.4);
+        cursor: pointer;
+        font-size: 15px;
+    }
+</style>
+</head>
+<body>
+
+<div class="glass">
+    <h2 style="text-align:center; color:white;">Login</h2>
+    <input type="text" placeholder="Email">
+    <input type="password" placeholder="Password">
+    <button>Login</button>
+</div>
+
+</body>
+</html>

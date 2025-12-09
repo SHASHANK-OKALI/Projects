@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
 <head>
 <title>Neon Button</title>
@@ -32,6 +32,48 @@
 <body>
 
 <button class="neon-btn">Hover Me</button>
+
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Typing Animation</title>
+<style>
+    body {
+        background: #111;
+        color: white;
+        font-family: monospace;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 28px;
+    }
+
+    .typing {
+        border-right: 3px solid white;
+        white-space: nowrap;
+        overflow: hidden;
+        width: 0;
+        animation: typing 4s steps(25) forwards, blink .5s step-end infinite;
+    }
+
+    @keyframes typing {
+        0% { width: 0 }
+        100% { width: 18ch }
+    }
+
+    @keyframes blink {
+        0%, 50% { border-color: transparent; }
+        100% { border-color: white; }
+    }
+</style>
+</head>
+<body>
+
+<div class="typing">Hello, welcome to my website!</div>
 
 </body>
 </html>

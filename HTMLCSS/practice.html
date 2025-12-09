@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Neon Button</title>
+<style>
+    body {
+        background: #000;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .neon-btn {
+        padding: 15px 35px;
+        font-size: 20px;
+        color: white;
+        border: 2px solid #0ff;
+        background: transparent;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: 0.3s;
+        text-shadow: 0 0 8px #0ff;
+        box-shadow: 0 0 8px #0ff inset;
+    }
+
+    .neon-btn:hover {
+        box-shadow: 0 0 20px #0ff, 0 0 40px #0ff inset;
+    }
+</style>
+</head>
+<body>
+
+<button class="neon-btn">Hover Me</button>
+
+</body>
+</html>
